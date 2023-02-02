@@ -18,3 +18,22 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+.country-list {
+  list-style: none;
+  position: relative;
+  padding: 8px;
+  width: 320px;
+  margin-bottom: 16px;
+  top: 44px;
+}
+.country-info {
+  position: relative;
+  font: inherit;
+  padding: 8px;
+  width: 320px;
+  margin-bottom: 16px;
+}
+
+.country-flag {
+  margin-right: 10px;
+}
