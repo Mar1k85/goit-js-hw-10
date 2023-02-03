@@ -16,24 +16,31 @@ body {
   font: inherit;
   padding: 8px;
   max-width: 320px;
-  margin-bottom: 16px;
-}
-.country-list {
-  list-style: none;
-  position: relative;
-  padding: 8px;
-  width: 320px;
-  margin-bottom: 16px;
-  top: 44px;
 }
 .country-info {
-  position: relative;
   font: inherit;
   padding: 8px;
   width: 320px;
-  margin-bottom: 16px;
 }
 
 .country-flag {
   margin-right: 10px;
+}
+
+.country-list {
+  list-style: none;
+  padding: 8px;
+  width: 320px;
+}
+.hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
